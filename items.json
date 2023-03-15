@@ -1,0 +1,52 @@
+{
+    "produits" : [
+        {
+            "id" : 1,
+            "name" : "Sel de bain",
+            "price" : 300,
+            "imgName" : "Sel de bain.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "Bougie neutre",
+            "price" : 300,
+            "imgName" : "bougies fades.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "Bougie senteur fleur de cerisier",
+            "price" : 500,
+            "imgName" : "bougies cerisier.jpg"
+        },
+        {
+            "id" : 4,
+            "name" : "Savon au miel",
+            "price" : 700,
+            "imgName" : "Savon miel.jpg"
+        },
+        {
+            "id" : 5,
+            "name" : "Savon à la rose",
+            "price" : 800,
+            "imgName" : "Savon rose.jpg"
+        },
+        {
+            "id" : 6,
+            "name" : "Parfum Aïsha",
+            "price" : 2500,
+            "imgName" : "Aïsha.jpg"
+        },
+        {
+            "id" : 7,
+            "name" : "Parfum Rouge",
+            "price" : 2500,
+            "imgName" : "Rouge.jpg"
+        },
+        {
+            "id" : 8,
+            "name" : "Box complète",
+            "price" : 3500,
+            "imgName" : "Box complete.jpg"
+        }
+    ]
+}

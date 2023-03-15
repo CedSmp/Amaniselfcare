@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: larger;
+}
+html{
+    background-color: rgb(254, 243, 244);
+}
+
+h1{
+   color: #82134e;
+   text-align: center;
+   font-family: 'Shantell Sans', cursive;
+   font-size: 5em;
+}
+h2{
+    color: rgb(30, 139, 81);
+    font-size: 1.5em;
+    text-align: center;
+}
+footer{
+    background-color: #dd5f9e36;
+    height: 375px;
+    border-width: 100%;
+    margin: 0%;
+    padding: .25em 0;
+}
+.quote{
+    background-color: rgba(0, 155, 41, 0.578);
+    text-align: center;
+    color:rgb(254, 243, 244) ;
+    font-size: 3em;
+}
+h3{
+    color: rgb(120, 190, 120);
+}
+
+nav li {
+    display: inline;
+}
+nav a {
+    padding: 6em;
+    color: rgb(8, 87, 10);
+}
+.hello {
+        float: left;
+        height: 200px;
+        width: 200px;
+        margin: 15px;
+        border-radius: 50%;
+}
+.réseau{
+    height: 65px;
+    width: 65px;  
+    margin-top: 6rem;
+}
+.contacts li{
+  display: inline-block; 
+  padding-inline: 6em;
+}
+.Buy{
+    background-color: rgb(8, 48, 16);
+    border-radius: 48%;
+    text-align: center;
+    margin-left: 40%;
+    color: #ffffff;
+    width: 13em;
+    height: 6em;
+}
+.show{
+    height: 5%;
+    width: 65%;
+    margin-left: 20%;
+}
+
+.liste{
+    font-size: 2em;
+    float: right;
+margin-right: 6em;
+}
+.plus{
+    background-color: #dd5f9e00;
+    color: rgb(7, 79, 32);
+    border: 3px solid rgb(14, 78, 14);
+    padding: 1.5em;
+    border-radius: 48%;
+    margin-left: 40%;
+}
+.hhh{
+    font-size: x-large;
+}
+.produit{
+    height: 250px;
+    width: 250px;
+}
+.shop-item-button{
+    background-color: rgb(8, 48, 16);
+    border-radius: 48%;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+    .shop-item-button:hover{
+        background-color: #94cf59;
+    }
+
+.panier{
+    height: 30px;
+    width: 30px;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 2em;
+    background-color:rgb(8, 48, 16) ;
+    color: white;
+    border-radius: 20%;
+    padding: 1.5rem;
+    width: 7em;
+}
+
+.btn-purchase:hover {
+    background-color: #94cf59;
+}
+.Buy:hover{
+    background-color: #94cf59;
+}
+.plus:hover{
+    background-color: rgba(247, 163, 220, 0.189);
+}
+.Félicitations{
+    width: 100%;
+    height: fit-content;
+}
+.id{
+    display :none
+}

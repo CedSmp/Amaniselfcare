@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boutique Amani</title>
+        <meta name="description" content="Amani est une boutique de bien-être fondée par 4 adolescents. Toutes les informations sur l'entreprise se trouve dans ce site et il est évidement possible d'acheter dessus">
+        <script src="panier.js" async></script>
+    </head>   
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href="Index.html"> <li>ACCUEIL</li>
+                    </a>
+                    <a href="Boutique.html"><li>BOUTIQUE</li>
+                    </a>
+                    <a href="A propos de nous.html"><li>A PROPOS DE NOUS</li>
+                    </a>
+                    <a href="#jump"><li><img class="panier" src="panier.png "></li>
+                    </a>
+            </ul>
+            </nav>
+            <hr>
+            <h1>Amani selfcare</h1>
+        </header>
+        <section>
+            <h2>Produits</h2>
+                <div class="shop-item">
+                    <img class="produit" src="Sel de bain.jpg"><h3><strong class="shop-item-title">Sel de bain</strong></h3>
+                    <span>Ces sels au parfum de bergamote peuvent aigayer votre journée en colorant votre bain. Ses composants adoucissent aussi la peau</span>
+                    <strong class="shop-item-price">3€</strong>
+                    <p class="id">1</p>
+                    <button class="shop-item-button" type="button">Acheter</button>
+                    <hr>
+                </div>
+                <div class="shop-item">
+                    <img class="produit" src="bougies fades.jpg"><h3><strong class="shop-item-title">Bougie neutre</strong></h3>
+                    <span>Cette bougie est parfaite pour ceux qui ne sont pas friands des fortes odeurs. Elles sont faite par nos soins</span>
+                    <strong class="shop-item-price">3€</strong>
+                    <p class="id">2</p>
+                    <button class="shop-item-button" type="button">Acheter</button>
+                    <hr>
+                </div>
+                <div class="shop-item">
+                    <img class="produit" src="bougies cerisier.jpg"><h3><strong class="shop-item-title">Bougie senteur fleur de cerisier</strong></h3>
+                    <span>La senteur florale de cette bougie a le don d'apaiser la personne qui l'allume. Laisserez-la vous séduire ? </span>
+                    <strong class="shop-item-price">5€</strong>
+                    <p class="id">3</p>
+                    <button class="shop-item-button" type="button">Acheter</button>
+                    <hr>
+                </div>
+                <div class="shop-item">
+                    <img class="produit" src="Savon miel.jpg"><h3><strong class="shop-item-title">Savon au miel</strong></h3>
+                    <span>Ce savon est parfait pour tous les types de peau, il a une douce et légère odeur de miel. Nous l'avons obtenu en collaboration avec l'arbre a savon</span>
+                    <strong class="shop-item-price">7€</strong>
+                    <p class="id">4</p>
+                    <button class="shop-item-button" type="button">Acheter</button>
+                    <hr>
+                </div>
+                <div class="shop-item">
+                    <img class="produit" src="Savon rose.jpg"><h3><strong class="shop-item-title">Savon à la rose</strong></h3>
+                    <span>Ce savon respecte toutes les peaux, même les plus faibles. Il a une forte odeur de rose. Nous l'avons obtenu en collaboration avec l'arbre à savon</span>
+                    <strong class="shop-item-price">8€</strong>
+                    <p class="id">5</p>
+                    <button class="shop-item-button" type="button">Acheter</button>
+                    <hr>
+                </div>
+                <div class="shop-item">
+                    <img class="produit" src="Aïsha.jpg"><h3><strong class="shop-item-title">Parfum Aïsha</strong></h3>
+                    <span>Les doux nuages de ce parfums va vous caliner tout au long de la journée. Aïsha a une odeur fruitée pour les amateurs de parfum léger</span>
+                    <strong class="shop-item-price">25€</strong>
+                    <p class="id">6</p>
+                   <button class="shop-item-button" type="button">Acheter</button>
+                    <hr>
+                </div>
+                    <div class="shop-item">
+                        <img class="produit" src="Rouge.jpg"><h3><strong class="shop-item-title">Parfum Rouge</strong></h3>
+                        <span>En raccord avec son nom, Rouge est rempli de passion. Si vous préferez les parfums puissants, Rouge est fait pour vous.</span>
+                        <strong class="shop-item-price">25€</strong>
+                        <p class="id">7</p>
+                       <button class="shop-item-button" type="button">Acheter</button>
+                        <hr>
+                    </div>
+                <div class="shop-item">
+                    <img class="produit" src="Box complete.jpg"><h3><strong class="shop-item-title">Box complète</strong></h3>
+                    <span>Pourquoi choisir un produit en particulier? En achetant la box complète, vous bénificirez d'un parfum, d'un sel de bain, d'une bougie à la fleur de ceriser et d'un savon à la rose pour un prix réduit. Vous économisez 15% en achetant la box complète florale</span>
+                    <strong class="shop-item-price">35€</strong>
+                    <p class="id">8</p>
+                    <button class="shop-item-button" type="button">Acheter</button>
+                </div>
+        </section>
+    <section class="container content-section" id="jump">
+        <h2 class="section-header">Panier</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Produit</span>
+            <span class="cart-price cart-header cart-column">Prix</span>
+            <span class="cart-quantity cart-header cart-column">Quantité</span>
+        </div>
+        <div class="cart-items">
+            
+        </div>
+        <div class="Total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0€</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" id="PAYER" type="button">PAYER</button>
+        <hr>
+        <footer>
+            <h3>Nos contacts</h3>
+            <ul class="contacts">
+                <a href="https://www.instagram.com/amanii.selfcare/?next=%2F&hl=fr"><li><img class="réseau" src="Insta.png"><p>@Amanii.selfcare</p></li> 
+                </a>
+               <a href="https://www.tiktok.com/@amaniselfcare?is_from_webapp=1&sender_device=pc"> <li><img class="réseau" src="Tiktok.png"><p>@Amaniselfcare</p></li>
+            </a>
+                <a href = "mailto: Amaniselfcare@gmail.com"><li><img class="réseau" src="Mail.png"><p>Amaniselfcare@gmail.com</p></li>
+            </a>
+        </ul>
+        </footer>
+    </body>
+    </html>
+ 
